@@ -33,7 +33,7 @@ import os
 
 cwd = os.getcwd()
 
-##/Volumes/giuliaam/2022Experiments/221206/Y16/
+
 
 directory = os.chdir("") # change directlry
 #print("Current working directory: {0}".format(cwd))
