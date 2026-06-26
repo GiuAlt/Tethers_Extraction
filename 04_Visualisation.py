@@ -21,14 +21,6 @@ from scipy.stats import wilcoxon, normaltest
 
 # T= pd.DataFrame()
 T= pd.concat([T, tf_all])
-# T = T[T["Tet_F"]<=1]
-# T = T[T["Interval"]!=1.5]
-# T = T[T["Interval"]<5]
-# C = C[C["E"]>0]
-
-
-
-# T = pd.read_excel("/Users/giuliaam/Desktop/Experiments/DataProject1/300s/Results.xlsx")
 
 
 # T['Interval'] = T['Interval'].replace([0.1],'-10')
@@ -56,12 +48,8 @@ plot = sb.boxplot(x ="Interval", y = "Tet_F",hue = "Type",color = "gray",dodge=T
 # # plot.set(xlabel = "Speed (µm/s)", ylabel = "Elastic moduslu (Pa)")
 # # plot.set(xlabel = "Speed (µm/s)", ylabel = "Elastic moduslu (Pa)")
 # # plot.legend(loc='center right', bbox_to_anchor=(1.34, 0.5), ncol=1)
-# plt.savefig('/Users/giuliaam/Desktop/Experiments/230119/PHOF.pdf',dpi=300, bbox_inches = "tight")
-# # T.to_excel('/Users/giuliaam/Desktop/Experiments/230117/Location01.1.xlsx',sheet_name='Sheet1')
+# plt.savefig('',dpi=300, bbox_inches = "tight")
+# # T.to_excel('',sheet_name='Sheet1')
 
 
-T.to_excel('/Users/giuliaam/Desktop/Experiments/260611/AUTO_Analysis.xlsx',sheet_name='Sheet1')
-
-
-# # # # # # Dt = Dat
-# x = T[T["Interval"
+T.to_excel('',sheet_name='Sheet1')
