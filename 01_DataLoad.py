@@ -36,11 +36,11 @@ import os
 
 cwd = os.getcwd()
 
-##/Volumes/giuliaam/2022Experiments/221206/Y16/
 
-directory = os.chdir("/Users/giuliaam/Desktop/Experiments/260611/R8") # change directlry
+
+directory = os.chdir("") # change directlry
 #print("Current working directory: {0}".format(cwd))
-#pd.read_excel("SP2nN.xlsx")
+
 
 # jpk.get_info('segments')
 
